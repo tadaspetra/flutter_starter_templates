@@ -1,0 +1,11 @@
+include: package:lint/analysis_options_package.yaml
+
+analyzer:
+  exclude:
+  - "**/*.g.dart"
+  - "**/*.gr.dart"
+  - "**/*.iconfig.dart"
+  - "**/*.freezed.dart"
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
